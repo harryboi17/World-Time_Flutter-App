@@ -1,16 +1,11 @@
-# world_time
+This project is mainly focused on using basic Flutter functions and having animated UI
+Project contains 4 pages:
+1)Clock Page : used to show world time with dynamic background according to time, and functioning self made clock
+               uses API intergration
 
-A new Flutter project.
+2)Alarm Page : general Alarm page, uses Local DataBase and Notification functionality, the alarm is set based on location set in Clock Page
+               features included : repeat alarm, set, update, delete, alarm title, custom notification feature
 
-## Getting Started
+3)Timer Page : simple timer page build with animations
 
-This project is a starting point for a Flutter application.
-
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+4)StopWatch Page: Stopwatch with lap features, animations, and self made Floating action button 
